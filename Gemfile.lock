@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     snap_cli (0.1.0)
-      snap_api_client (~> 0)
+      snap_api_client (~> 0.2)
       thor (~> 1.1)
 
 GEM
@@ -61,7 +61,7 @@ GEM
     rubocop-ast (1.4.1)
       parser (>= 2.7.1.5)
     ruby-progressbar (1.11.0)
-    snap_api_client (0.1.0)
+    snap_api_client (0.2.0)
       http (~> 4.4)
       thor (~> 1.1)
     thor (1.1.0)
