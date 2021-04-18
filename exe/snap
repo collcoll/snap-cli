@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'snap_cli'
+
+SnapAPIClient.configure do |config|
+  config.base_url = ENV.fetch('SNAP_API_BASE_URL', 'https://snap.collabcollective.com/api/v1')
+  config.authentication_token = ENV['SNAP_API_TOKEN'] || \
+                                raise(SnapCLI::ConfigurationError, 'no authentication token was found')
+end
+
+SnapCLI::Application.start
