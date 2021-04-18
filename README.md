@@ -1,28 +1,20 @@
-# SnapCLI
+# Snap CLI
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/snap_cli`. To experiment with that code, run `bin/console` for an interactive prompt.
+Interact with your Snap account using the CLI.
 
-TODO: Delete this and the text above, and describe your gem
+:warning: **This gem is in active development and won't be stable until version 1.0** :warning:
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'snap_cli'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
+To install the gem and make the `snap` command available:
 
     $ gem install snap_cli
 
 ## Usage
 
-TODO: Write usage instructions here
+View available commands by running:
+
+    $ snap help
 
 ## Development
 
@@ -40,4 +32,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the SnapCLI project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/snap_cli/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Snap CLI project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/snap_cli/blob/master/CODE_OF_CONDUCT.md).
