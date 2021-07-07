@@ -5,6 +5,8 @@ require 'snap_api_client'
 
 require_relative 'snap_cli/errors'
 require_relative 'snap_cli/card'
+require_relative 'snap_cli/effort'
+require_relative 'snap_cli/project'
 require_relative 'snap_cli/application'
 require_relative 'snap_cli/version'
 

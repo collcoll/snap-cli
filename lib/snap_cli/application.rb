@@ -9,5 +9,13 @@ module SnapCLI
     desc 'card',
          'Perform actions on a specific card'
     subcommand 'card', Card
+
+    desc 'effort',
+         'Perform actions on a specific effort'
+    subcommand 'effort', Effort
+
+    desc 'project',
+         'Perform actions on a specific project'
+    subcommand 'project', Project
   end
 end
