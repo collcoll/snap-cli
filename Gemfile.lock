@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    snap_cli (0.1.0)
+    snap_cli (0.2.0)
       snap_api_client (~> 0.3)
       thor (~> 1.1)
 
@@ -80,4 +80,4 @@ DEPENDENCIES
   snap_cli!
 
 BUNDLED WITH
-   2.2.3
+   2.2.15

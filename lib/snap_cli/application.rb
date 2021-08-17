@@ -6,9 +6,9 @@ module SnapCLI
       true
     end
 
-    desc 'card',
-         'Perform actions on a specific card'
-    subcommand 'card', Card
+    desc 'task',
+         'Perform actions on a specific task'
+    subcommand 'task', Task
 
     desc 'effort',
          'Perform actions on a specific effort'
