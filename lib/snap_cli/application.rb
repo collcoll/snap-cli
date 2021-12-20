@@ -17,5 +17,9 @@ module SnapCLI
     desc 'project',
          'Perform actions on a specific project'
     subcommand 'project', Project
+
+    desc 'pull_request',
+         'Perform actions on a specific pull request'
+    subcommand 'pull_request', PullRequest
   end
 end
